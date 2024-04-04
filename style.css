@@ -1,0 +1,305 @@
+/* CSS général */
+header {
+    position: sticky;
+    top: 0;
+    left:0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; 
+    z-index:100;
+    background-color: #403d3d;
+}
+
+nav a {
+    float: right;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: wheat;
+}
+
+body {
+    font-family: DM Sans;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 30px 10px 20px;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 500; 
+    padding: 25px 10px 15px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px 10px 10px;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+p {
+    padding: 10px;
+    line-height: 18px;
+}
+
+/*CSS page accueil*/
+#bandeau-accueil {
+    height: 400px;   
+    text-align: center;
+    margin: 20px;
+    color: #403d3d; 
+}
+
+#bandeau-accueil p {
+    margin: 0 290px;
+    font-size: 18px;
+}
+
+#titre-bandeau-a-propos {
+    text-align: center;
+    background-color: #cfdcbc;
+    color: #737868;
+    padding-top: 20px;
+} 
+
+#bandeau-a-propos {
+    height: fit-content;
+    padding: 20px 130px;
+    padding-bottom: 35px;
+    background-color: #cfdcbc;
+    color: #737868;
+    text-align: center;
+}
+
+#bandeau-a-propos1, #bandeau-a-propos2 {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cfdcbc;
+    color: #737868;
+}
+
+.propos {
+    height: 220px;
+    width: 510px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.propos h4 {
+    margin-top: 20px;
+}
+
+.propos p {
+    margin-top: 10px;
+    padding: 7px 30px;
+}
+
+#bouton-propos {
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #737868;
+    color: white;
+}
+
+#bouton-propos:hover {
+    background-color: #a3ad8e;
+    color: #403d3d;
+}
+
+#titre-bandeau-mon-parcours {
+    text-align: center;
+    background-color: #e7e0da;
+    color: #7b6451;
+    padding-top: 20px;
+}
+
+#bandeau-mon-parcours {
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    background-color: #e7e0da;
+    color: #7b6451;
+    text-align: center;
+}
+
+#bandeau-mon-parcours h5, h4, p {
+    padding: 5px;
+}
+
+#colonne1 {
+    border-radius: 30px;
+    margin: 11px 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#colonne2 h3 {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#colonne2 {
+    height: fit-content;
+    width: 1000px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+.content {
+    margin: 30px 7px 30px;
+}
+
+#section-bouton-parcours {
+    height: 50px;
+    background-color: #e7e0da;
+    text-align: center;
+}
+
+#bouton-parcours {
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #7b6451;
+    color: white;
+    text-align: center;
+}
+
+#bouton-parcours:hover {
+    background-color: #a6988b;
+    color: #403d3d;
+}
+
+
+
+/* CSS page à propos de moi */
+#body2 {
+    background-color: #cfdcbc;
+    color: #737868;
+}
+
+#body2 h2 {
+    text-align: center;
+    margin: 25px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+#body2 p {
+    margin-top: 10px;
+}
+
+.box-gauche {
+    height: fit-content;
+    width: 810px;
+    border-radius: 20px;
+    margin: 30px 70px;
+    background-color: #f1f1f1;
+    float: left;
+    box-shadow: 1.2em 1.2em #a3ad8e;
+}
+
+.txt-g {
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.box-droite {
+    height: fit-content;
+    width: 810px;
+    border-radius: 20px;
+    margin: 30px 100px;
+    background-color: #737868;
+    color: #f1f1f1;
+    float: right;
+    box-shadow: 1.2em 1.2em #9ea78d
+}
+
+.txt-d {
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#body2 img {
+    margin: 20px;
+}
+
+
+/* CSS page mon parcours */ 
+#body3 {
+    background-color: #e7e0da;
+    color: #7b6451;
+}
+
+#body3 h2 {
+    margin: 25px;
+    padding-top: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 60px;
+}
+
+.heading {
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+#body3 h4, h5 {
+    font-weight: 500;
+}
+
+#projets {
+    height: fit-content;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 25px 200px; 
+
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.txt-proj {
+    padding: 0px 70px;
+    padding-bottom: 40px;
+}
+
+#parcours {
+    padding-bottom: 40px;
+    margin: 50px 290px;
+    text-align: center;
+    height: fit-content;
+    width: 870px;
+    border-radius: 20px;
+    background-color: #7b6451;
+    color: #f1f1f1;
+}
+
+.txt-parcours {
+    padding: 20px;
+}
