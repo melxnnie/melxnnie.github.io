@@ -162,7 +162,7 @@ p {
 
 #colonne2 {
     height: fit-content;
-    width: 550px;
+    width: 530px;
     background-color: #f1f1f1;
     border-radius: 20px;
     padding: 20px;
@@ -172,7 +172,7 @@ p {
 }
 
 .content {
-    margin: 30px 7px 30px;
+    margin: 30px 7px 15px;
 }
 
 #section-bouton-parcours {
