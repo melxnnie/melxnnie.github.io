@@ -93,8 +93,8 @@ p {
 }
 
 .propos {
-    height: 220px;
-    width: fit-content;
+    height: fit-content;
+    width: 470px;
     background-color: #f1f1f1;
     border-radius: 15px;
     margin: 30px;
@@ -134,9 +134,10 @@ p {
 }
 
 #bandeau-mon-parcours {
-    height: fit-content;
+    height: 450px;
     padding: 20px;
-    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #e7e0da;
     color: #7b6451;
     text-align: center;
@@ -151,6 +152,7 @@ p {
     margin: 11px 30px;
     padding: 10px;
     text-align: center;
+    float: left;
 }
 
 #colonne2 h3 {
@@ -160,12 +162,13 @@ p {
 
 #colonne2 {
     height: fit-content;
-    width: 700px;
+    width: 550px;
     background-color: #f1f1f1;
     border-radius: 20px;
     padding: 20px;
     margin: 25px;
     text-align: center;
+    float: right;
 }
 
 .content {
